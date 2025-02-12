@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "preinstall": "rm -rf node_modules package-lock.json",
-    "build": "vite build",
-    "dev": "vite",
+    "build": "npx vite build",
+    "dev": "npx vite",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "npx vite preview"
   },
   "dependencies": {
     "@react-three/drei": "^9.109.5",
@@ -17,7 +17,8 @@
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "three": "^0.167.1"
+    "three": "^0.167.1",
+    "vite": "^5.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
