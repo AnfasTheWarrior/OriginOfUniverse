@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+App {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+
+div.hero {
+  width: 100vw;
+  /* width: auto; */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background: black;
+}

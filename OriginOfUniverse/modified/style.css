@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Roobert";
+  src: url("https://uploads-ssl.webflow.com/638d7f1c2e5f782966711fa5/638d7f1c2e5f784748711fb2_RoobertPRO-Light.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@media (max-width: 980px) {
+  .head {
+    height: 100vh;
+  }
+  .banner {
+    height: 90vh;
+  }
+  .t-hs {
+    top: 60%;
+    transition: 0.01ms 2s;
+    margin-left: 100px;
+  }
+  .t-hs:hover {
+    top: 62%;
+    margin-left: 400px;
+  }
+  .h-nav {
+    width: 184px;
+    height: 114px;
+    cursor: pointer;
+    color: black !important;
+    position: absolute;
+    opacity: 50%;
+    z-index: 50;
+    top: 76%;
+    margin-left: 733px;
+  }
+  .h-nav-links {
+    color: rgb(108, 88, 102) !important;
+  }
+}
+
+.line-mask {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  margin-left: -40px;
+  background-color: black;
+  opacity: 0.9;
+  height: 100%;
+  width: 100vw;
+  z-index: 2;
+}
+
+.way-2 {
+  font-size: 100px !important;
+  padding-bottom: 10vh !important;
+}
+
+.text-way {
+  width: 100%;
+  margin-left: auto;
+  font-size: 80px;
+  padding: 30vh 10px;
+  padding-bottom: 40vh;
+  max-width: 974px;
+  font-family: "Roobert";
+
+  line-height: 1.05;
+  padding-right: 10px;
+}
+
+.un-line {
+  width: 60%;
+  height: 1px;
+  margin-top: 8.9em;
+  margin-bottom: 8.9em;
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
+
+.base-box {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.line {
+  position: relative;
+  border-top-left-radius: 50% !important;
+}
+
+#Inside-menu {
+  display: flex;
+
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  opacity: 80%;
+  height: 6vh;
+  font-weight: bold;
+  font-family: inter;
+}
+
+.ull {
+  list-style: none;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin: 0% auto;
+  height: 6vh;
+  margin-left: 0%;
+}
+
+.lli {
+  opacity: 0;
+  position: absolute;
+  transition: 0.5s ease;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.lli.show {
+  opacity: 1;
+  margin-top: 0;
+}
+
+.lli.hide {
+  opacity: 0;
+  margin-top: -20px;
+}
+
+#uq.show {
+  opacity: 1;
+}
+
+#uq.hide {
+  opacity: 0;
+}
+#uq {
+  opacity: 0;
+  transition: 0.5s ease;
+}
+:root {
+  --purple: rgb(123, 31, 162);
+
+  --violet: rgb(103, 58, 183);
+  --pink: rgb(244, 143, 177);
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+.magic {
+  display: inline-block;
+  position: relative;
+}
+.magic-text {
+  display: flex;
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--purple),
+    var(--violet),
+    var(--pink),
+    var(--purple)
+  );
+  margin-left: 10px;
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+.mag-txt {
+  font-size: 160px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+.contentnav ul {
+  font-size: 50px;
+  list-style: none;
+}
